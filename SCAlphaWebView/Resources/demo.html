@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>demo</title>
+    <style>
+        .page {
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+        }
+
+        html, body, .page {
+            height: 100%;
+        }
+
+        * {
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body, html {
+            min-height: 100%;
+            height: 100%;
+            width: 100%;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: transparent !important;
+        }
+
+        #app {
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+
+        #close {
+            background-color: white;
+            color: black;
+            position: fixed;
+            right: 20px;
+            bottom: 70px;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div id="app">
+        <img id="icon"
+             src="https://api-hailang.xiaojukeji.com/web-h5/resourceWeb/creative/popup/surprise_car/image/jingxi.png"/>
+        <div>
+            <span id="close">close</span>
+        </div>
+    </div>
+</div>
+<script src="alphaWebView.js"></script>
+<script>
+    var closeButton = document.getElementById("close");
+    closeButton.style.cursor = 'pointer';
+    closeButton.onclick = function (ev) {
+        closeWebView();
+    };
+</script>
+</body>
+</html>
