@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SCAlphaWebView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'a kind of webview with transparent background.'
  
   s.description      = <<-DESC

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SCAlphaWebView
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, SCAlphaWebViewDelegate {
     var alphaWebView: SCAlphaWebView?
@@ -43,7 +43,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.backgroundColor = UIColor.yellow
+        let label = UILabel()
+        label.textColor = UIColor.black
+        label.frame = CGRect(x: 20, y: 20, width: 150, height: 50)
+        label.text = "cell at index: \(indexPath.row)"
+        cell.backgroundColor = UIColor.lightGray
+        cell.addSubview(label)
         return cell
     }
 

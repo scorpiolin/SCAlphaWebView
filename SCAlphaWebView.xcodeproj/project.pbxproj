@@ -7,67 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71B811728202295C564BB173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B81CDA29A668287F5BC9BE /* ViewController.swift */; };
-		71B812472EF31D89CA88541D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B818412648B5FB49C36A77 /* Assets.xcassets */; };
-		71B813E351A5D70F51C4198E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B813579DA673542BBCC08E /* AppDelegate.swift */; };
-		71B81736524E355F88C258C2 /* SCAlphaWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B81E69881EB67B2DAD36CB /* SCAlphaWebView.swift */; };
+		551C6EAED4E9C3B160DD7A9E /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C44EA7C128F95F28FDE4E6 /* Pods_Example.framework */; };
+		70A49A1C206BD3DB003C2E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A49A1B206BD3DB003C2E92 /* LaunchScreen.storyboard */; };
+		70F363EF206BAB8800464647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F363EE206BAB8800464647 /* AppDelegate.swift */; };
+		70F363F1206BAB8800464647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F363F0206BAB8800464647 /* ViewController.swift */; };
+		70F363F6206BAB8800464647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F363F5206BAB8800464647 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		71B81A19BCCD5BDA28778075 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71B815B759C8481B29E2732D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71B811F75D804A76169C037B;
-			remoteInfo = SCAlphaWebView;
-		};
-		71B81FF5B67249A972BC3761 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71B815B759C8481B29E2732D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71B811F75D804A76169C037B;
-			remoteInfo = SCAlphaWebView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		71B8104352C0C6EA8B1FAB03 /* SCAlphaWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCAlphaWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71B81165C54AA48233AC4EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		71B81203DBD0EA0E312FD674 /* SCAlphaWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCAlphaWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		71B813579DA673542BBCC08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9DBAEB0880F734A21A5D7D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		70A49A1B206BD3DB003C2E92 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70F363EC206BAB8800464647 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F363EE206BAB8800464647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70F363F0206BAB8800464647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70F363F5206BAB8800464647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70F363FA206BAB8800464647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71B81427935D6FF7A3DEEFAF /* alphaWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = alphaWebView.js; sourceTree = "<group>"; };
-		71B818412648B5FB49C36A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B81A38B620A2EB0A1A16F5 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
-		71B81AAD8F8B08D88D50B288 /* SCAlphaWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCAlphaWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71B81CDA29A668287F5BC9BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71B81E69881EB67B2DAD36CB /* SCAlphaWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCAlphaWebView.swift; sourceTree = "<group>"; };
+		D7C44EA7C128F95F28FDE4E6 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB58CC911987D5D14BD9BC1 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		71B814312804087D32AD430C /* Frameworks */ = {
+		70F363E9206BAB8800464647 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B8148B700B8988983CC9CE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B819BB2DC2268D26307FB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				551C6EAED4E9C3B160DD7A9E /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392C413E0CB5ADE3B340B0D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCB58CC911987D5D14BD9BC1 /* Pods-Example.debug.xcconfig */,
+				3F9DBAEB0880F734A21A5D7D /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63F491A68C1BAEF5CCFD4AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7C44EA7C128F95F28FDE4E6 /* Pods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70F363ED206BAB8800464647 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				70A49A1B206BD3DB003C2E92 /* LaunchScreen.storyboard */,
+				70F363EE206BAB8800464647 /* AppDelegate.swift */,
+				70F363F0206BAB8800464647 /* ViewController.swift */,
+				70F363F5206BAB8800464647 /* Assets.xcassets */,
+				70F363FA206BAB8800464647 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		71B8132220C5D5D998DD9E85 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,10 +82,6 @@
 		71B81542441DECD1790150E5 /* SCAlphaWebView */ = {
 			isa = PBXGroup;
 			children = (
-				71B81165C54AA48233AC4EF9 /* Info.plist */,
-				71B818412648B5FB49C36A77 /* Assets.xcassets */,
-				71B813579DA673542BBCC08E /* AppDelegate.swift */,
-				71B81CDA29A668287F5BC9BE /* ViewController.swift */,
 				71B81DF875754C184FF92904 /* Classes */,
 				71B8132220C5D5D998DD9E85 /* Resources */,
 			);
@@ -93,9 +91,7 @@
 		71B817EB3AE6EFB90C0C3F30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71B81203DBD0EA0E312FD674 /* SCAlphaWebView.app */,
-				71B81AAD8F8B08D88D50B288 /* SCAlphaWebViewTests.xctest */,
-				71B8104352C0C6EA8B1FAB03 /* SCAlphaWebViewUITests.xctest */,
+				70F363EC206BAB8800464647 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,8 +99,11 @@
 		71B81B2A341DAE15D159D423 = {
 			isa = PBXGroup;
 			children = (
+				70F363ED206BAB8800464647 /* Example */,
 				71B817EB3AE6EFB90C0C3F30 /* Products */,
 				71B81542441DECD1790150E5 /* SCAlphaWebView */,
+				392C413E0CB5ADE3B340B0D5 /* Pods */,
+				63F491A68C1BAEF5CCFD4AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,58 +118,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71B811F75D804A76169C037B /* SCAlphaWebView */ = {
+		70F363EB206BAB8800464647 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71B81B34DD706209E06FA7A4 /* Build configuration list for PBXNativeTarget "SCAlphaWebView" */;
+			buildConfigurationList = 70F363FB206BAB8800464647 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				71B81ECC8217D7E0A1BE179A /* Sources */,
-				71B8148B700B8988983CC9CE /* Frameworks */,
-				71B811F8D32949DDC9ABE8D1 /* Resources */,
+				9FB9EF045268D64334DD710A /* [CP] Check Pods Manifest.lock */,
+				70F363E8206BAB8800464647 /* Sources */,
+				70F363E9206BAB8800464647 /* Frameworks */,
+				70F363EA206BAB8800464647 /* Resources */,
+				37245013F87A58FA9066712D /* [CP] Embed Pods Frameworks */,
+				F64178C87D9FE9E5E6CA326E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SCAlphaWebView;
-			productName = SCAlphaWebView;
-			productReference = 71B81203DBD0EA0E312FD674 /* SCAlphaWebView.app */;
+			name = Example;
+			productName = Example;
+			productReference = 70F363EC206BAB8800464647 /* Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		71B819CBE000B206C571FD81 /* SCAlphaWebViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71B812071F77AD30FAE8CFE8 /* Build configuration list for PBXNativeTarget "SCAlphaWebViewTests" */;
-			buildPhases = (
-				71B818BD2D17A87FDDEE967B /* Sources */,
-				71B814312804087D32AD430C /* Frameworks */,
-				71B81C03B43A1F5557556C18 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71B81FFDF8F9723AEDC27758 /* PBXTargetDependency */,
-			);
-			name = SCAlphaWebViewTests;
-			productName = SCAlphaWebViewTests;
-			productReference = 71B81AAD8F8B08D88D50B288 /* SCAlphaWebViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		71B81CA203E17E0367C0C063 /* SCAlphaWebViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71B817954EE55AD8EEC098AC /* Build configuration list for PBXNativeTarget "SCAlphaWebViewUITests" */;
-			buildPhases = (
-				71B8165A115DBF52C2DA0029 /* Sources */,
-				71B819BB2DC2268D26307FB0 /* Frameworks */,
-				71B810F4F0FAC06D81207F77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71B81887B6456FE8DC5C6995 /* PBXTargetDependency */,
-			);
-			name = SCAlphaWebViewUITests;
-			productName = SCAlphaWebViewUITests;
-			productReference = 71B8104352C0C6EA8B1FAB03 /* SCAlphaWebViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -178,7 +144,14 @@
 		71B815B759C8481B29E2732D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				ORGANIZATIONNAME = sc;
+				TargetAttributes = {
+					70F363EB206BAB8800464647 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 71B81E1C0CE8DC5F752D285B /* Build configuration list for PBXProject "SCAlphaWebView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -186,85 +159,127 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 71B81B2A341DAE15D159D423;
 			productRefGroup = 71B817EB3AE6EFB90C0C3F30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71B811F75D804A76169C037B /* SCAlphaWebView */,
-				71B819CBE000B206C571FD81 /* SCAlphaWebViewTests */,
-				71B81CA203E17E0367C0C063 /* SCAlphaWebViewUITests */,
+				70F363EB206BAB8800464647 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		71B810F4F0FAC06D81207F77 /* Resources */ = {
+		70F363EA206BAB8800464647 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B811F8D32949DDC9ABE8D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71B812472EF31D89CA88541D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B81C03B43A1F5557556C18 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				70F363F6206BAB8800464647 /* Assets.xcassets in Resources */,
+				70A49A1C206BD3DB003C2E92 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37245013F87A58FA9066712D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SCAlphaWebView/SCAlphaWebView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCAlphaWebView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB9EF045268D64334DD710A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F64178C87D9FE9E5E6CA326E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		71B8165A115DBF52C2DA0029 /* Sources */ = {
+		70F363E8206BAB8800464647 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B818BD2D17A87FDDEE967B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B81ECC8217D7E0A1BE179A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71B813E351A5D70F51C4198E /* AppDelegate.swift in Sources */,
-				71B811728202295C564BB173 /* ViewController.swift in Sources */,
-				71B81736524E355F88C258C2 /* SCAlphaWebView.swift in Sources */,
+				70F363F1206BAB8800464647 /* ViewController.swift in Sources */,
+				70F363EF206BAB8800464647 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		71B81887B6456FE8DC5C6995 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71B811F75D804A76169C037B /* SCAlphaWebView */;
-			targetProxy = 71B81FF5B67249A972BC3761 /* PBXContainerItemProxy */;
-		};
-		71B81FFDF8F9723AEDC27758 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71B811F75D804A76169C037B /* SCAlphaWebView */;
-			targetProxy = 71B81A19BCCD5BDA28778075 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		70F363FC206BAB8800464647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB58CC911987D5D14BD9BC1 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scorpiolin.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70F363FD206BAB8800464647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9DBAEB0880F734A21A5D7D /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scorpiolin.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		71B8111926D54C619BCABD72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -323,72 +338,6 @@
 			};
 			name = Debug;
 		};
-		71B81272B952C9B997F1D563 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SCAlphaWebViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scorpiolin.SCAlphaWebViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SCAlphaWebView;
-			};
-			name = Release;
-		};
-		71B8163405A92026DECD628B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SCAlphaWebViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scorpiolin.SCAlphaWebViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SCAlphaWebView;
-			};
-			name = Debug;
-		};
-		71B816471567D263D599A274 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCAlphaWebView.app/SCAlphaWebView";
-				INFOPLIST_FILE = SCAlphaWebViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scorpiolin.SCAlphaWebViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		71B819D8A8AF71054E2D75B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SCAlphaWebView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scorpiolin.SCAlphaWebView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		71B81BB6FD61B22A814C4286 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SCAlphaWebView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scorpiolin.SCAlphaWebView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		71B81C29A9A8467FEBCF286C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -440,46 +389,14 @@
 			};
 			name = Release;
 		};
-		71B81C4E6DC33CE25ECB806D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCAlphaWebView.app/SCAlphaWebView";
-				INFOPLIST_FILE = SCAlphaWebViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scorpiolin.SCAlphaWebViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71B812071F77AD30FAE8CFE8 /* Build configuration list for PBXNativeTarget "SCAlphaWebViewTests" */ = {
+		70F363FB206BAB8800464647 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71B816471567D263D599A274 /* Debug */,
-				71B81C4E6DC33CE25ECB806D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		71B817954EE55AD8EEC098AC /* Build configuration list for PBXNativeTarget "SCAlphaWebViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71B8163405A92026DECD628B /* Debug */,
-				71B81272B952C9B997F1D563 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		71B81B34DD706209E06FA7A4 /* Build configuration list for PBXNativeTarget "SCAlphaWebView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71B819D8A8AF71054E2D75B6 /* Debug */,
-				71B81BB6FD61B22A814C4286 /* Release */,
+				70F363FC206BAB8800464647 /* Debug */,
+				70F363FD206BAB8800464647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

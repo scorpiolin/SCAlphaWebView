@@ -22,7 +22,7 @@ open class SCAlphaWebView: UIWebView, UIWebViewDelegate {
 
     private static let defaultAlphaThreshold: CGFloat = 0.6
     private var _alphaThreshold: CGFloat?
-    var alphaThreshold: CGFloat? {
+    public var alphaThreshold: CGFloat? {
         get {
             return _alphaThreshold
         }
@@ -31,7 +31,7 @@ open class SCAlphaWebView: UIWebView, UIWebViewDelegate {
         }
     }
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.alphaThreshold = SCAlphaWebView.defaultAlphaThreshold
         self.delegate = self
